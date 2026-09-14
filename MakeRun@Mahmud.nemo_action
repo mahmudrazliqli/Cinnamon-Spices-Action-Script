@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Make run
+Icon-Name=system-run
+Exec=bash -c 'cd %F && echo -e "\n\\033[42;1;37m   MAKE RUN   \\033[0m\n" && if make run; then sleep 2; else echo -e "\n\\033[5;41;1;37m   *** ERROR ***   \\033[0m\n" && read -p $'"'"'Press Enter to close...'"'"'; fi'
+Selection=None
+Terminal=true
+Extensions=any;
+Quote=double

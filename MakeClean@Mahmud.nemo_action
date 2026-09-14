@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Make clean
+Icon-Name=edit-clear-all-symbolic
+Exec=bash -c 'cd %F && echo -e "\n\\033[42;1;37m   MAKE Clean   \\033[0m\n" && if make clean; then sleep 2; else echo -e "\n\\033[5;41;1;37m   *** ERROR ***   \\033[0m\n" && read -p $'"'"'Press Enter to close...'"'"'; fi'
+Selection=None
+Terminal=true
+Extensions=any;
+Quote=double

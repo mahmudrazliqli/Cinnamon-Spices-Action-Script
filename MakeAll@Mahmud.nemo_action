@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Make all
+Icon-Name=applications-system
+Exec=bash -c 'cd %F && echo -e "\n\\033[42;1;37m   MAKE ALL   \\033[0m\n" && if make all; then sleep 2; else echo -e "\n\\033[5;41;1;37m   *** ERROR ***   \\033[0m\n" && read -p $'"'"'Press Enter to close...'"'"'; fi'
+Selection=None
+Terminal=true
+Extensions=any;
+Quote=double
