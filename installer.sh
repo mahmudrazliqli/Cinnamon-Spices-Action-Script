@@ -7,6 +7,7 @@ FILES=(
     "MakeAll@Mahmud.nemo_action"
     "MakeClean@Mahmud.nemo_action"
     "MakeRun@Mahmud.nemo_action"
+    "MakeProgram@Mahmud.nemo_action"
 )
 
 echo "------------------------------------------"
